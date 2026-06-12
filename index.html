@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DPS Classifieds</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>DPS Classifieds</h1>
+  <p>Buy, Sell and Advertise Anything in Nigeria</p>
+
+  <button>Register</button>
+  <button>Login</button>
+</header>
+
+<section>
+  <h2>Search Listings</h2>
+  <input type="text" placeholder="Search for cars, phones, jobs...">
+</section>
+
+<section>
+  <h2>Categories</h2>
+  <div>🚗 Cars</div>
+  <div>📱 Phones</div>
+  <div>🏠 Properties</div>
+  <div>💼 Jobs</div>
+</section>
+
+<section>
+  <h2>Featured Listings</h2>
+
+  <div>
+    <h3>Toyota Corolla</h3>
+    <p>₦5,000,000</p>
+    <p>Lagos</p>
+  </div>
+
+  <div>
+    <h3>iPhone 15 Pro</h3>
+    <p>₦1,200,000</p>
+    <p>Abuja</p>
+  </div>
+</section>
+
+<section>
+  <h2>Post an Ad</h2>
+
+  <input id="title" type="text" placeholder="Item Title">
+  <input id="price" type="number" placeholder="Price">
+  <input id="location" type="text" placeholder="Location">
+
+  <button onclick="postAd()">Post Ad</button>
+
+  <div id="listings"></div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
